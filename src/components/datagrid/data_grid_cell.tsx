@@ -50,6 +50,11 @@ export interface EuiDataGridCellValueElementProps {
    */
   rowIndex: number;
   /**
+   * index of the column being rendered, 0 represents the first column.
+   * Comes from #EuiDataGridCellProps
+   */
+  colIndex: number;
+  /**
    * id of the column being rendered, the value comes from the #EuiDataGridColumn `id`
    */
   columnId: string;
